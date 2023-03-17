@@ -32,8 +32,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        {/* <main className="bg-gray-50 px-10 dark:bg-gray-900"> */}
-        <section className="min-h-screen bg-gray-100 px-10 dark:bg-gray-800">
+        <section
+          className={
+            "min-h-screen bg-gray-100 px-10 dark:bg-gray-800 transition-colors duration-500"
+          }
+        >
           <nav className="py-10 mb-5 flex justify-around">
             <h1 className="text-2xl font-cocogoose dark:text-gray-200">
               portfolio
@@ -48,7 +51,7 @@ export default function Home() {
                 ) : (
                   <BsFillSunFill
                     onClick={() => setDarkMode(!darkMode)}
-                    className="cursor-pointer text-2xl dark:text-gray-200"
+                    className="cursor-pointer text-2xl dark:text-gray-200 "
                   />
                 )}
               </li>
