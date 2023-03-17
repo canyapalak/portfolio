@@ -19,10 +19,10 @@ a {
 
 @font-face {
   font-family: "cocogoose";
-  src: url("../../public/Cocogoose.otf")
+  src: url("../assets/Cocogoose.otf")
 }
 
 @font-face {
   font-family: "cocogoose-prolight";
-  src: url("../../public/Cocogoose-Prolight.ttf")
+  src: url("../assets/Cocogoose-Prolight.ttf")
 }
