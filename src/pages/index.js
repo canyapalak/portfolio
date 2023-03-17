@@ -128,8 +128,8 @@ export default function Home() {
           </div>
           <div
             className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 text-center
-          gap-5 p-10 rounded-lg bg-gradient-to-b
-          from-stone-400 to-stone-50 shadow-md mb-10 max-w-screen-sm mx-auto "
+          gap-5 p-7 rounded-lg bg-gradient-to-b
+          from-stone-400 to-stone-50 shadow-md max-w-screen-sm mx-auto "
           >
             <a
               target="_blank"
