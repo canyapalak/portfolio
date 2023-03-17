@@ -28,7 +28,7 @@ export const projects = [
     id: 3,
     title: "Memory Game",
     description:
-      "A flip-card memory game with a scoreboard system, developed with React, Firebase, Bootstrap and plain CSS.",
+      "A flip-card memory game with a scoreboard, developed with React, Firebase and Bootstrap.",
     img: Project3,
     pathLive: "https://mystic-cards-memory-game.netlify.app/",
     pathRepo: "https://github.com/canyapalak/flip-card-memory-game",

@@ -24,21 +24,29 @@ import {
 import Image from "next/image";
 import Avatar from "../assets/nobg-avatar.png";
 import { projects } from "@/data/skills-and-projects";
+import { useState } from "react";
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div>
+    <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Can Yapalak Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-gray-50 px-10">
+      <main className="bg-gray-50 px-10 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-around">
-            <h1 className="text-2xl font-cocogoose">portfolio</h1>
+            <h1 className="text-2xl font-cocogoose dark:text-gray-200">
+              portfolio
+            </h1>
             <ul className="flex items-center gap-5">
               <li>
-                <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+                <BsFillMoonStarsFill
+                  onClick={() => setDarkMode(!darkMode)}
+                  className="cursor-pointer text-2xl dark:text-gray-200"
+                />
               </li>
               <li>
                 <a
@@ -66,8 +74,10 @@ export default function Home() {
             <h2 className="text-3xl py-2 text-cyan-600 font-medium">
               Can Yapalak
             </h2>
-            <h3 className="text-xl py-2">Junior Web Developer</h3>
-            <p className="text-sm py-2">
+            <h3 className="text-xl py-2 dark:text-gray-200">
+              Junior Web Developer
+            </h3>
+            <p className="text-sm py-2 dark:text-gray-200">
               I'm Can, a fresh Junior Web Developer residing in Berlin, Germany.
               <br></br>
               I'm currently learning how to be a Full-Stack Web Dev and spending
@@ -92,7 +102,7 @@ export default function Home() {
           </div>
         </section>
         <section className="mt-5 min-h-screen">
-          <div className="font-cocogooseprolight max-w-40 pt-40">
+          <div className="font-cocogooseprolight max-w-40 pt-40 dark:text-gray-200">
             <h3 className="text-xl text-center pb-2 mb-4">My Skills</h3>
             <p className="text-sm px-5 pb-10 text-center max-w-screen-lg mx-auto ">
               This is my toolbox for now. I tend to learn a new tool in every
@@ -155,17 +165,18 @@ export default function Home() {
           </div>
         </section>
         <section className="min-h-screen">
-          <div className="font-cocogooseprolight max-w-40 pt-40 text-center">
+          <div className="font-cocogooseprolight max-w-40 pt-40 text-center dark:text-gray-200">
             <h3 className="text-xl pb-2 mb-5">Previous Projects</h3>
-            <p className="text-sm px-5 pb-10 max-w-screen-lg mx-auto ">
-              This is my toolbox for now. I tend to learn a new tool in every
-              new project and gain more experience on what I have learned
-              before. In this way, I aim to expand my toolbox continously. I
-              wish to get familiar with most of the libraries, frameworks, tools
-              and environments that are widely used in the industry.
+            <p className="text-sm px-5 pb-10 max-w-screen-lg mx-auto">
+              These are the projects I have made so far. They are all
+              single-person projects, which means that both coding and styling
+              parts were made by me from the scratch. I always try to focus on
+              clean coding and an eye-appealing style at the same time. The
+              projects vary from single page front-end applications to
+              full-stack multi-functional ones.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-5 2xl:mx-40 md:mx-20 sm:mx-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-5 gap-10 mb-5 2xl:mx-40 md:mx-10 sm:mx-10 ">
             {projects.map((project) => {
               return (
                 <article
@@ -185,16 +196,16 @@ export default function Home() {
                       <a
                         href={project.pathLive}
                         target="_blank"
-                        className="rounded px-5 py-[0.3rem] flex justify-center items-center bg-teal-500 text-sm"
+                        className="rounded px-6 py-2 flex justify-center items-center bg-gradient-to-r from-cyan-500 to-teal-300 text-sm"
                       >
-                        live
+                        Live
                       </a>
                       <a
                         href={project.pathRepo}
                         target="_blank"
-                        className="rounded px-5 py-[0.3rem] flex justify-center items-center bg-cyan-500 text-sm"
+                        className="rounded px-6 py-2 flex justify-center items-center bg-gradient-to-r from-emerald-500 to-green-300 text-sm"
                       >
-                        code
+                        Code
                       </a>
                     </div>
                   </div>
