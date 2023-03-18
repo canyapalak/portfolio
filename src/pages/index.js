@@ -19,7 +19,7 @@ import {
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import Avatar from "../assets/nobg-avatar.png";
-import { projects } from "@/data/skills-and-projects";
+import { projects } from "@/data/projects";
 import { useState } from "react";
 
 export default function Home() {
@@ -181,15 +181,15 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <section className="min-h-screen px-10 bg-teal-50 dark:bg-zinc-800">
+        <section className="min-h-screen px-10 bg-gray-100 dark:bg-gray-800">
           <div className="font-cocogooseprolight max-w-40 pt-10 text-center dark:text-gray-200">
             <h3 className="text-xl pb-2 mb-5">Projects</h3>
             <p className="text-sm px-5 pb-10 max-w-screen-lg mx-auto">
               These are the projects I have made so far. They are all
               single-person projects, which means that both coding and styling
               parts were made by me from the scratch. I always try to focus on
-              clean coding and an eye-appealing style at the same time. The
-              projects vary from single page front-end applications to
+              clean coding, eye-appealing style and responsiveness at the same
+              time. The projects vary from single page front-end applications to
               full-stack multi-functional ones.
             </p>
           </div>
