@@ -4,6 +4,7 @@ import Project3 from "../assets/project-3.png";
 import Project4 from "../assets/project-4.png";
 import Project5 from "../assets/project-5.png";
 import Project6 from "../assets/project-6.png";
+import Project7 from "../assets/project-7.png";
 
 export const projects = [
   {
@@ -35,6 +36,15 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Poll Box",
+    description:
+      "An anonymous poll app developed with React, Firestore and Tailwind CSS",
+    img: Project7,
+    pathLive: "https://poll-box.netlify.app/",
+    pathRepo: "https://github.com/canyapalak/poll-box",
+  },
+  {
+    id: 5,
     title: "FreeGa",
     description:
       "An API project for video games to play free, built with pure Javascript, Bootstrap and some plain CSS.",
@@ -43,7 +53,7 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/freega",
   },
   {
-    id: 5,
+    id: 6,
     title: "Lots of Foxes",
     description:
       "A page with a single-endpoint API which shows user a random fox photo each time",
@@ -52,7 +62,7 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/lots-of-foxes",
   },
   {
-    id: 6,
+    id: 7,
     title: "Rick and Morty Cards",
     description:
       "A React project serving as a database of Rick and Morty characters",
