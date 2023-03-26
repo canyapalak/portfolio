@@ -208,7 +208,7 @@ export default function Home() {
                   items-center px-5 rounded-lg translate-y-full group-hover:translate-y-0 text-white duration-300"
                   >
                     <div>
-                      <h2 className="text-xl font-bold text-white text-center text-md pb-3">
+                      <h2 className="text-xl font-bold text-cyan-400 text-center text-md pb-3">
                         {project.title}
                       </h2>
                       <p className="text-gray-200 text-center text-sm">
@@ -220,7 +220,7 @@ export default function Home() {
                         href={project.pathLive}
                         target="_blank"
                         className="rounded px-6 py-2 flex justify-center items-center 
-                        bg-gradient-to-r from-cyan-500 to-teal-300 text-sm"
+                        bg-gradient-to-r from-emerald-500 to-green-300 text-sm hover:from-emerald-600 hover:to-green-400"
                       >
                         Live
                       </a>
@@ -228,9 +228,9 @@ export default function Home() {
                         href={project.pathRepo}
                         target="_blank"
                         className="rounded px-6 py-2 flex justify-center items-center 
-                        bg-gradient-to-r from-emerald-500 to-green-300 text-sm"
+                        bg-gradient-to-r from-amber-500 to-orange-300 text-sm hover:from-amber-600 hover:to-orange-400"
                       >
-                        Code
+                        Repo
                       </a>
                     </div>
                   </div>
