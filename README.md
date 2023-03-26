@@ -7,8 +7,6 @@
 This is a personal page for me, my skills and my projects. It was built with React and Next.js, and the CSS part was made totally with Tailwind CSS for a clear styling and complete responsiveness. The projects section includes a thumbnail, short description, Github repository link and a live version link of each project.
 
 The page also features an eye appealing dark mode.
-
-This page was deployed on Vercel for automatic server-side-rendering.
 </p>
   
 <h2>Technologies used</h2>
