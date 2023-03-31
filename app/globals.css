@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "cocogoose";
+  src: url("../public/assets/Cocogoose.otf")
+}
+
+@font-face {
+  font-family: "cocogoose-prolight";
+  src: url("../public/assets/Cocogoose-Prolight.ttf")
+}
