@@ -56,7 +56,7 @@ export const projects = [
     id: 6,
     title: "Lots of Foxes",
     description:
-      "A page with a single-endpoint API which shows user a random fox photo each time",
+      "A page with a single-endpoint API which shows user a random fox photo with each click",
     img: Project5,
     pathLive: "https://venerable-kelpie-d61619.netlify.app/",
     pathRepo: "https://github.com/canyapalak/lots-of-foxes",
