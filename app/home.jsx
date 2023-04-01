@@ -9,6 +9,7 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
+  SiTypescript,
   SiBootstrap,
   SiMui,
   SiTailwindcss,
@@ -17,7 +18,8 @@ import {
   SiMongodb,
   SiExpress,
   SiNextdotjs,
-  SiFigma,
+  SiGraphql,
+  SiApollographql,
   SiPostman,
 } from "react-icons/si";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
@@ -140,6 +142,9 @@ export default function Home() {
           <a target="_blank" href="https://reactjs.org/">
             <SiReact className="text-6xl mx-auto hover:text-cyan-800" />
           </a>
+          <a target="_blank" href="https://www.typescriptlang.org/">
+            <SiTypescript className="text-6xl mx-auto hover:text-cyan-800" />
+          </a>
           <a target="_blank" href="https://getbootstrap.com/">
             <SiBootstrap className="text-6xl mx-auto hover:text-cyan-800" />
           </a>
@@ -164,8 +169,11 @@ export default function Home() {
           <a target="_blank" href="https://nextjs.org/">
             <SiNextdotjs className="text-6xl mx-auto hover:text-cyan-800" />
           </a>
-          <a target="_blank" href="https://www.figma.com/">
-            <SiFigma className="text-6xl mx-auto hover:text-cyan-800" />
+          <a target="_blank" href="https://graphql.org/">
+            <SiGraphql className="text-6xl mx-auto hover:text-cyan-800" />
+          </a>
+          <a target="_blank" href="https://www.apollographql.com/">
+            <SiApollographql className="text-6xl mx-auto hover:text-cyan-800" />
           </a>
           <a target="_blank" href="https://www.postman.com/">
             <SiPostman className="text-6xl mx-auto hover:text-cyan-800" />
