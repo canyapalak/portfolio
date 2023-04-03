@@ -5,6 +5,7 @@ import Project4 from "../assets/project-4.png";
 import Project5 from "../assets/project-5.png";
 import Project6 from "../assets/project-6.png";
 import Project7 from "../assets/project-7.png";
+import Project8 from "../assets/project-8.png"
 
 export const projects = [
   {
@@ -52,8 +53,17 @@ export const projects = [
     pathLive: "https://freega-app.netlify.app/",
     pathRepo: "https://github.com/canyapalak/freega",
   },
-  {
+    {
     id: 6,
+    title: "Now Playing",
+    description:
+      "A website about new movies, developed with Typescript, Next.js, Apollo GraphQL and Tailwind CSS",
+    img: Project8,
+    pathLive: "https://now-playing-movies.vercel.app/",
+    pathRepo: "https://github.com/canyapalak/now-playing",
+  },
+  {
+    id: 7,
     title: "Lots of Foxes",
     description:
       "A page with a single-endpoint API which shows user a random fox photo with each click",
@@ -62,7 +72,7 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/lots-of-foxes",
   },
   {
-    id: 7,
+    id: 8,
     title: "Rick and Morty Cards",
     description:
       "A React project serving as a database of Rick and Morty characters",
