@@ -12,7 +12,7 @@ export const projects = [
     id: 1,
     title: "Bird Encounters",
     description:
-      "A social app project for bird observers and enthusiasts, built with MERN stack.",
+      "A social app project for bird observers and enthusiasts, built with MERN stack",
     img: Project1,
     pathLive: "https://bird-encounters.vercel.app/",
     pathRepo: "https://github.com/canyapalak/bird-encounters",
@@ -30,7 +30,7 @@ export const projects = [
     id: 3,
     title: "Memory Game",
     description:
-      "A flip-card memory game with a scoreboard, developed with React, Firebase and Bootstrap.",
+      "A flip-card memory game with a scoreboard, developed with React, Firebase and Bootstrap",
     img: Project3,
     pathLive: "https://mystic-cards-memory-game.netlify.app/",
     pathRepo: "https://github.com/canyapalak/flip-card-memory-game",
@@ -48,12 +48,12 @@ export const projects = [
     id: 5,
     title: "FreeGa",
     description:
-      "An API project for video games to play free, built with pure Javascript, Bootstrap and some plain CSS.",
+      "An API project for video games to play free, built with pure Javascript, Bootstrap and some plain CSS",
     img: Project4,
     pathLive: "https://freega-app.netlify.app/",
     pathRepo: "https://github.com/canyapalak/freega",
   },
-    {
+  {
     id: 6,
     title: "Now Playing",
     description:
