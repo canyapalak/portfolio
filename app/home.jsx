@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import "./page.module.css";
 import "./globals.css";
@@ -27,6 +27,15 @@ import Image from "next/image";
 import Avatar from "../public/assets/nobg-avatar.png";
 import { projects } from "../public/data/projects.js";
 import { useState } from "react";
+
+// export async function getStaticProps() {
+//   console.log('projects :>> ', projects);
+//   return {
+//     props: {
+//       projects,
+//     },
+//   }
+// }
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -196,7 +205,7 @@ export default function Home() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-5 gap-10 pb-5 2xl:mx-40 
           md:mx-10 sm:mx-10 "
         >
-          {projects.map((project) => {
+          {projects?.map((project) => {
             return (
               <article
                 key={project.id}
