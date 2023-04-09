@@ -66,7 +66,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/11daIHvoSuB0LeRom5-h661mpdpQ7Ijns"
+                href="https://drive.google.com/file/d/11qpQZFSPmt0Nl5GLsAk0fmgOMKNBfucr"
                 target="_blank"
                 className="bg-gradient-to-r from-cyan-500 hover:from-cyan-600 to-teal-500
                    hover:to-teal-600 text-white px-4 py-2 
