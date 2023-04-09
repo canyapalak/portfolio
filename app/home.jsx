@@ -89,13 +89,13 @@ export default function Home() {
             Can Yapalak
           </h2>
           <h3 className="text-xl py-2 dark:text-gray-200">
-            Junior Web Developer
+           Web Developer
           </h3>
           <p className="text-sm py-2 dark:text-gray-200 max-w-[1000px] text-center mx-auto">
-            I'm Can, a fresh Junior Web Developer residing in Berlin, Germany.
-            I'm currently learning how to be a Full-Stack Web Dev and spending
-            all my time and energy in this new field of expertise. My purpose is
-            to work as a full-time web developer and keep on progressing with
+            I'm Can, a Junior Web Developer residing in Berlin, Germany.
+            I am eager to continuously acquire new skills and I am open to learning.
+            I love developing functional, responsive and eye-pleasing websites and applications.
+            My aim is to be a full time web developer and keep on progressing with
             experience.
           </p>
         </div>
@@ -129,7 +129,7 @@ export default function Home() {
           <p className="text-sm px-5 pb-10 text-center max-w-screen-lg mx-auto ">
             This is my toolbox for now. I tend to learn a new tool in every new
             project and gain more experience on what I have learned before. In
-            this way, I aim to expand my toolbox continously. I wish to get
+            this way, I aim to expand my toolbox constantly. I wish to get
             familiar with most of the libraries, frameworks, tools and
             environments that are widely used in the industry.
           </p>
@@ -196,7 +196,7 @@ export default function Home() {
             These are the projects I have made so far. They are all
             single-person projects, which means that both coding and styling
             parts were made by me from the scratch. I always try to focus on
-            clean coding, eye-appealing style and responsiveness at the same
+            clean coding, an appealing style and responsiveness at the same
             time. The projects vary from single page front-end applications to
             full-stack multi-functional ones.
           </p>
