@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import "./page.module.css";
 import "./globals.css";
@@ -66,7 +66,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/11vLpiqYsAJITZZziIypVEHuAy8VHRg3u/"
+                href="https://drive.google.com/file/d/11wEWBldZDSGk2SARBFg9bfP9VydCzoCv/"
                 target="_blank"
                 className="bg-gradient-to-r from-cyan-500 hover:from-cyan-600 to-teal-500
                    hover:to-teal-600 text-white px-4 py-2 
@@ -88,15 +88,13 @@ export default function Home() {
           <h2 className="text-3xl py-2 text-cyan-600 font-medium">
             Can Yapalak
           </h2>
-          <h3 className="text-xl py-2 dark:text-gray-200">
-           Web Developer
-          </h3>
+          <h3 className="text-xl py-2 dark:text-gray-200">Web Developer</h3>
           <p className="text-sm py-2 dark:text-gray-200 max-w-[1000px] text-center mx-auto">
-            I'm Can, a Junior Web Developer residing in Berlin, Germany.
-            I am eager to continuously acquire new skills and I am open to learning.
-            I love developing functional, responsive and eye-pleasing websites and applications.
-            My aim is to be a full time web developer and keep on progressing with
-            experience.
+            I'm Can, a Junior Web Developer residing in Berlin, Germany. I am
+            eager to continuously acquire new skills and I am open to learning.
+            I love developing functional, responsive and eye-pleasing websites
+            and applications. My aim is to be a full time web developer and keep
+            on progressing with experience.
           </p>
         </div>
         <div className="text-4xl flex justify-center gap-7 text-cyan-600 pb-10">
