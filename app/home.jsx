@@ -25,6 +25,7 @@ import {
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import Avatar from "../public/assets/nobg-avatar.png";
+import Avatar1 from "../public/assets/canyprofil.png";
 import { projects } from "../public/data/projects.js";
 import { useState } from "react";
 
@@ -66,7 +67,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/11wEWBldZDSGk2SARBFg9bfP9VydCzoCv/"
+                href="https://drive.google.com/file/d/11zK-mhwSz-ZQVk0eRbxPdgusLsQSVQIN/"
                 target="_blank"
                 className="bg-gradient-to-r from-cyan-500 hover:from-cyan-600 to-teal-500
                    hover:to-teal-600 text-white px-4 py-2 
@@ -83,7 +84,7 @@ export default function Home() {
           from-slate-500 rounded-full w-60 h-60 overflow-hidden
           shadow-xl mb-5"
           >
-            <Image src={Avatar} layout="fill" objectFit="cover" alt="avatar" />
+            <Image src={Avatar1} layout="fill" objectFit="cover" alt="avatar" />
           </div>
           <h2 className="text-3xl py-2 text-cyan-600 font-medium">
             Can Yapalak
