@@ -126,11 +126,11 @@ export default function Home() {
         <div className="font-cocogooseprolight max-w-40 pt-10 dark:text-gray-200">
           <h3 className="text-xl text-center pb-2 mb-4">Skills</h3>
           <p className="text-sm px-5 pb-10 text-center max-w-screen-lg mx-auto ">
-            This is my toolbox for now. I tend to learn a new tool in every new
-            project and gain more experience on what I have learned before. In
-            this way, I aim to expand my toolbox constantly. I wish to get
-            familiar with most of the libraries, frameworks, tools and
-            environments that are widely used in the industry.
+            This is my toolbox. I tend to learn a new tool in every new project
+            and gain more experience on what I have learned before. In this way,
+            I aim to expand my toolbox constantly. I wish to get familiar with
+            most of the libraries, frameworks, tools and environments that are
+            widely used in the industry.
           </p>
         </div>
         <div
