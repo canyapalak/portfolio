@@ -29,15 +29,6 @@ import Avatar1 from "../public/assets/canyprofil.png";
 import { projects } from "../public/data/projects.js";
 import { useState } from "react";
 
-// export async function getStaticProps() {
-//   console.log('projects :>> ', projects);
-//   return {
-//     props: {
-//       projects,
-//     },
-//   }
-// }
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
