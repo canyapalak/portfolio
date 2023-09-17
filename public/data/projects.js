@@ -7,6 +7,7 @@ import Project6 from "../assets/project-6.png";
 import Project7 from "../assets/project-7.png";
 import Project8 from "../assets/project-8.png";
 import Project9 from "../assets/project-9.png";
+import Project10 from "../assets/project-10.png";
 
 export const projects = [
   {
@@ -29,6 +30,15 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Coffee-Co",
+    description:
+      "Fake shop app about coffee beans, made with Next.js, Typescript and Tailwind CSS.",
+    img: Project10,
+    pathLive: "https://coffee-co-shop.vercel.app/",
+    pathRepo: "https://github.com/canyapalak/coffee-co",
+  },
+  {
+    id: 4,
     title: "Memory Game",
     description:
       "A flip-card memory game with a scoreboard, developed with React, Firebase and Bootstrap",
@@ -37,7 +47,7 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/flip-card-memory-game",
   },
   {
-    id: 4,
+    id: 5,
     title: "Poll Box",
     description:
       "An anonymous poll app developed with React, Firestore and Tailwind CSS",
@@ -45,17 +55,16 @@ export const projects = [
     pathLive: "https://poll-box.netlify.app/",
     pathRepo: "https://github.com/canyapalak/poll-box",
   },
-    {
-    id: 5,
+  {
+    id: 6,
     title: "Space News",
-    description:
-      "A news app developed with React, Typescript and Tailwind CSS",
+    description: "A news app developed with React, Typescript and Tailwind CSS",
     img: Project9,
     pathLive: "https://spacenews-app.netlify.app/",
     pathRepo: "https://github.com/canyapalak/space-news",
   },
   {
-    id: 6,
+    id: 7,
     title: "FreeGa",
     description:
       "An API project for video games to play free, built with pure Javascript, Bootstrap and some plain CSS",
@@ -63,23 +72,14 @@ export const projects = [
     pathLive: "https://freega-app.netlify.app/",
     pathRepo: "https://github.com/canyapalak/freega",
   },
-    {
-    id: 7,
+  {
+    id: 8,
     title: "Now Playing",
     description:
       "A website about new movies, developed with Typescript, Next.js, Apollo GraphQL and Tailwind CSS",
     img: Project8,
     pathLive: "https://now-playing-movies.vercel.app/",
     pathRepo: "https://github.com/canyapalak/now-playing",
-  },
-  {
-    id: 8,
-    title: "Lots of Foxes",
-    description:
-      "A page with a single-endpoint API which shows user a random fox photo each time",
-    img: Project5,
-    pathLive: "https://venerable-kelpie-d61619.netlify.app/",
-    pathRepo: "https://github.com/canyapalak/lots-of-foxes",
   },
   {
     id: 9,
