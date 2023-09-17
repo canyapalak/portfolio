@@ -31,7 +31,7 @@ export const projects = [
     id: 3,
     title: "Coffee-Co",
     description:
-      "Fake shop app about coffee beans, made with Next.js, Typescript and Tailwind CSS.",
+      "A fictional coffee brand's online shop built with Next.js, TypeScript and Tailwind CSS",
     img: Project10,
     pathLive: "https://coffee-co-shop.vercel.app/",
     pathRepo: "https://github.com/canyapalak/coffee-co",
