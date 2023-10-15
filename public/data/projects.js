@@ -47,6 +47,15 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Make a Dish",
+    description:
+      "A pixel-art recipe generator app using Next.js, TypeScript, Tailwind, and OpenAI API",
+    img: Project8,
+    pathLive: "https://make-a-dish.vercel.app/",
+    pathRepo: "https://github.com/canyapalak/make-a-dish",
+  },
+  {
+    id: 6,
     title: "Poll Box",
     description:
       "An anonymous poll app developed with React, Firestore and Tailwind CSS",
@@ -55,7 +64,7 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/poll-box",
   },
   {
-    id: 6,
+    id: 7,
     title: "Space News",
     description: "A news app developed with React, Typescript and Tailwind CSS",
     img: Project9,
@@ -63,22 +72,13 @@ export const projects = [
     pathRepo: "https://github.com/canyapalak/space-news",
   },
   {
-    id: 7,
+    id: 8,
     title: "FreeGa",
     description:
       "An API project for video games to play free, built with pure Javascript, Bootstrap and some plain CSS",
     img: Project4,
     pathLive: "https://freega-app.netlify.app/",
     pathRepo: "https://github.com/canyapalak/freega",
-  },
-  {
-    id: 8,
-    title: "Now Playing",
-    description:
-      "A website about new movies, developed with Typescript, Next.js, Apollo GraphQL and Tailwind CSS",
-    img: Project8,
-    pathLive: "https://now-playing-movies.vercel.app/",
-    pathRepo: "https://github.com/canyapalak/now-playing",
   },
   {
     id: 9,
