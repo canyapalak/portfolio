@@ -49,7 +49,7 @@ export const projects = [
     id: 5,
     title: "Make a Dish",
     description:
-      "A pixel-art recipe generator app using Next.js, TypeScript, Tailwind, and OpenAI API",
+      "A pixel-art recipe generator app using Next.js, TypeScript, Tailwind CSS, and OpenAI API",
     img: Project8,
     pathLive: "https://make-a-dish.vercel.app/",
     pathRepo: "https://github.com/canyapalak/make-a-dish",
