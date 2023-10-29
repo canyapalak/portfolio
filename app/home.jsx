@@ -83,9 +83,9 @@ export default function Home() {
           <h3 className="text-xl py-2 dark:text-gray-200">Web Developer</h3>
           <p className="text-sm py-2 dark:text-gray-200 max-w-[1000px] text-center mx-auto">
             I'm Can, a Junior Web Developer residing in Berlin, Germany. I am
-            eager to continuously acquire new skills and I am open to learning.
-            I love developing functional, responsive and eye-pleasing websites
-            and applications. My aim is to be a full time web developer and keep
+            eager to continuously acquire new skills and open to learning. I
+            love creating functional, responsive and eye-pleasing websites and
+            applications. My aim is to be an ever-improving developer and keep
             on progressing with experience.
           </p>
         </div>
