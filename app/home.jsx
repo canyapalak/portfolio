@@ -24,7 +24,6 @@ import {
 } from "react-icons/si";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import Avatar from "../public/assets/nobg-avatar.png";
 import Avatar1 from "../public/assets/canyprofil.png";
 import { projects } from "../public/data/projects.js";
 import { useState } from "react";
