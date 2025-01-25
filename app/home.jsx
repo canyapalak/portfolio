@@ -24,7 +24,7 @@ import {
 } from "react-icons/si";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import Avatar from "../public/assets/nobg-avatar.png";
+import Avatar1 from "../public/assets/canyprofil.png";
 import { projects } from "../public/data/projects.js";
 import { useState } from "react";
 
@@ -57,7 +57,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/11YpSygzWH6o-nTF1Pfrx1C8st6XUkYPe"
+                href="https://drive.google.com/file/d/1ro79S5TpXvunvgZu8tA3WjKksQIiXsXn/"
                 target="_blank"
                 className="bg-gradient-to-r from-cyan-500 hover:from-cyan-600 to-teal-500
                    hover:to-teal-600 text-white px-4 py-2 
@@ -74,20 +74,18 @@ export default function Home() {
           from-slate-500 rounded-full w-60 h-60 overflow-hidden
           shadow-xl mb-5"
           >
-            <Image src={Avatar} layout="fill" objectFit="cover" alt="avatar" />
+            <Image src={Avatar1} layout="fill" objectFit="cover" alt="avatar" />
           </div>
           <h2 className="text-3xl py-2 text-cyan-600 font-medium">
             Can Yapalak
           </h2>
-          <h3 className="text-xl py-2 dark:text-gray-200">
-            Junior Web Developer
-          </h3>
+          <h3 className="text-xl py-2 dark:text-gray-200">Web Developer</h3>
           <p className="text-sm py-2 dark:text-gray-200 max-w-[1000px] text-center mx-auto">
-            I'm Can, a fresh Junior Web Developer residing in Berlin, Germany.
-            I'm currently learning how to be a Full-Stack Web Dev and spending
-            all my time and energy in this new field of expertise. My purpose is
-            to work as a full-time web developer and keep on progressing with
-            experience.
+            I'm Can, a Junior Web Developer residing in Berlin, Germany. I am
+            eager to continuously acquire new skills and open to learning. I
+            love creating functional, responsive and eye-pleasing websites and
+            applications. My aim is to be an ever-improving developer and keep
+            on progressing with experience.
           </p>
         </div>
         <div className="text-4xl flex justify-center gap-7 text-cyan-600 pb-10">
@@ -118,11 +116,11 @@ export default function Home() {
         <div className="font-cocogooseprolight max-w-40 pt-10 dark:text-gray-200">
           <h3 className="text-xl text-center pb-2 mb-4">Skills</h3>
           <p className="text-sm px-5 pb-10 text-center max-w-screen-lg mx-auto ">
-            This is my toolbox for now. I tend to learn a new tool in every new
-            project and gain more experience on what I have learned before. In
-            this way, I aim to expand my toolbox continously. I wish to get
-            familiar with most of the libraries, frameworks, tools and
-            environments that are widely used in the industry.
+            This is my toolbox. I tend to learn a new tool in every new project
+            and gain more experience on what I have learned before. In this way,
+            I aim to expand my toolbox constantly. I wish to get familiar with
+            most of the libraries, frameworks, tools and environments that are
+            widely used in the industry.
           </p>
         </div>
         <div
@@ -180,23 +178,23 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section className="min-h-screen px-10 bg-gray-100 dark:bg-gray-800">
+      <section className="min-h-screen px-10 pb-5 bg-gray-100 dark:bg-gray-800">
         <div className="font-cocogooseprolight max-w-40 pt-10 text-center dark:text-gray-200">
           <h3 className="text-xl pb-2 mb-5">Projects</h3>
           <p className="text-sm px-5 pb-10 max-w-screen-lg mx-auto">
             These are the projects I have made so far. They are all
             single-person projects, which means that both coding and styling
             parts were made by me from the scratch. I always try to focus on
-            clean coding, eye-appealing style and responsiveness at the same
+            clean coding, an appealing style and responsiveness at the same
             time. The projects vary from single page front-end applications to
             full-stack multi-functional ones.
           </p>
         </div>
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:mx-5 gap-10 pb-5 2xl:mx-40 
-          md:mx-10 sm:mx-10 "
+          md:mx-10 sm:mx-10"
         >
-          {projects.map((project) => {
+          {projects?.map((project) => {
             return (
               <article
                 key={project.id}
