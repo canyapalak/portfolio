@@ -114,7 +114,7 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <section className="bg-orange-100 min-h-screen px-10 dark:bg-slate-900">
+      <section className="bg-orange-100 min-h-screen px-10 pb-6 dark:bg-slate-900">
         <div className="font-cocogooseprolight max-w-40 pt-10 dark:text-gray-200">
           <h3 className="text-xl text-center pb-2 mb-4">Skills</h3>
           <p className="text-sm px-5 pb-10 text-center max-w-screen-lg mx-auto ">
